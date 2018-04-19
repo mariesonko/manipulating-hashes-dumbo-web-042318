@@ -5,11 +5,15 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  groceries.each do |attribute, value|
-  groceries.values
-end
-  #code your solution here!
 
+  grocery = groceries[:dairy][:vegetable][:meat][:grains]
+  grocery.each do |attribute, value|
+        groceries.values 
+      end
+  #remember to return your newly altered contacts hash!
+  groceries 
+  #code your solution here!
+end 
 
 
 end
