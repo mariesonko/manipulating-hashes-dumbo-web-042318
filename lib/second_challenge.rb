@@ -9,7 +9,7 @@ def second_challenge
   grocery = groceries[:dairy, :vegetable, :meat, :grains]
   grocery.each do |attribute, value|
         if attribute == :groceries
-        groceries.values 
+        groceries.values
       end
       end
   groceries
