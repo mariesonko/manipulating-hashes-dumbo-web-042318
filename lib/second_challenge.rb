@@ -8,12 +8,9 @@ def second_challenge
 
   grocery = groceries[:dairy][:vegetable][:meat][:grains]
   grocery.each do |attribute, value|
-        groceries.values 
+        groceries.values
       end
-  #remember to return your newly altered contacts hash!
-  groceries 
-  #code your solution here!
-end 
-
-
+  groceries
 end
+
+
