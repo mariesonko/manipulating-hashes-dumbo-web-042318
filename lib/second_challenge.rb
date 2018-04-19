@@ -7,7 +7,7 @@ def second_challenge
   }
   groceries.each do |attribute, value|
   groceries.values
-end 
+end
   #code your solution here!
 
 
