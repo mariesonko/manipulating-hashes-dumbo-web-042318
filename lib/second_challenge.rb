@@ -6,8 +6,11 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.each do |attribute, value|
-        groceries.values
+  grocery = groceries[:dairy, :vegetable, :meat, :grains]
+  grocery.each do |attribute, value|
+        if attribute == :groceries
+        groceries.values 
+      end
       end
   groceries
 end
