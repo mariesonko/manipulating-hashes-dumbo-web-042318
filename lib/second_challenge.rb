@@ -12,5 +12,3 @@ def second_challenge
       end
   groceries
 end
-
-
